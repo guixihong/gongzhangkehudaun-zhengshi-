@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1808" minimumToolsVersion="Xcode 7.0">
+    <entity name="ForemLocal" representedClassName="ForemLocal" syncable="YES">
+        <attribute name="cldw" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clgg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clmc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clsl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clxh" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xsj" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ForemLocal" positionX="-18" positionY="27" width="128" height="150"/>
+    </elements>
+</model>

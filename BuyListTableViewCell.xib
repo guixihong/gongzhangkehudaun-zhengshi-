@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="64" id="KGk-i7-Jjw" customClass="BuyListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NE-zF-9ib">
+                        <rect key="frame" x="8" y="40" width="122" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfn-4t-vcU">
+                        <rect key="frame" x="8" y="0.0" width="172" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSw-ae-j6Y">
+                        <rect key="frame" x="10" y="62" width="101" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="101" id="JMd-0i-1dV"/>
+                            <constraint firstAttribute="height" constant="21" id="VVQ-Rc-DX3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbQ-lZ-gdv">
+                        <rect key="frame" x="150" y="54" width="150" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="5zr-DY-1lX"/>
+                            <constraint firstAttribute="width" constant="150" id="9zm-8W-il9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1A-hZ-doU">
+                        <rect key="frame" x="10" y="5" width="175" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="KhK-jV-LLC"/>
+                            <constraint firstAttribute="width" constant="175" id="oJQ-Rh-qCi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Fu-d2-77I">
+                        <rect key="frame" x="164" y="34" width="148" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nSw-ae-j6Y" firstAttribute="top" secondItem="A1A-hZ-doU" secondAttribute="bottom" constant="36" id="Cay-07-ygF"/>
+                    <constraint firstItem="bbQ-lZ-gdv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="54" id="E7J-AL-KAm"/>
+                    <constraint firstAttribute="trailing" secondItem="bbQ-lZ-gdv" secondAttribute="trailing" constant="20" id="I4v-TL-VeU"/>
+                    <constraint firstItem="A1A-hZ-doU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Lgi-JJ-78o"/>
+                    <constraint firstItem="nSw-ae-j6Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="TFc-4n-fDT"/>
+                    <constraint firstItem="A1A-hZ-doU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="gwz-cD-iUa"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="nSw-ae-j6Y"/>
+                        <exclude reference="bbQ-lZ-gdv"/>
+                        <exclude reference="A1A-hZ-doU"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ksdhf" destination="4Fu-d2-77I" id="UDF-tD-0eR"/>
+                <outlet property="xsdhtext" destination="gfn-4t-vcU" id="9XE-4j-IHB"/>
+                <outlet property="xstttext" destination="1NE-zF-9ib" id="tA4-fc-lTm"/>
+            </connections>
+            <point key="canvasLocation" x="280" y="268"/>
+        </tableViewCell>
+    </objects>
+</document>
